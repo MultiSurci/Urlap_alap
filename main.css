@@ -1,1 +1,38 @@
 
+
+body {
+	background-image:url(img/tom-briskey-AddAnDkkovM-unsplash.jpg);
+    background-size:cover;
+	color: black;
+	font-family: sans-serif;
+}
+
+header {
+	background: orange;
+	height: auto;
+    text-align: center;
+	padding: 40px;
+}
+
+h1 {
+	font-size: 3em;
+  }
+
+section {
+    background-color:hsla(120,60%,70%,0.3);
+	border: 1px solid #333333;
+	margin: 60px;
+	padding: 20px;
+}
+
+footer {
+	background: orange;
+	border: 1px solid #333333;
+	clear: both;
+	font-weight: bold;
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+

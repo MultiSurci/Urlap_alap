@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<title>Kosárlabda orvosi kérdőív</title>
+</head>
+<body>
+<header>
+
+<h1>Kosárlabda Sportorvosi kérdőív</h1>
+
+</header>
+  
+<section>
+<h3>Adatok</h3>
+  <form>
+  Vezetéknév:<br><input type="text" name="vezeteknev"><br>
+  Keresztnév:<br><input type="text" name="keresztnev"><br>
+  Az Ön neme:<br><select name="valaszolo_neme"><option value="ferfi">Férfi</option>
+  <option value="no">Nő</option>
+  </select><br>
+  Születési idő:<br><input type="date" name="szuletesnap"><br>
+  Anyja neve:<br><input type="text" name="anyja_neve"><br>
+  Cím:<br><input type="text" name="cím"><br>
+  Telefonszám:<br><input type="tel" name="telefonszam"><br>
+  E-mail cím:<br><input type="email" name="email"><br>
+  </form>
+</section>
+<section>
+<H3>Orvosi adatok</H3>
+  <form>
+    Hei edzés óra (óra/hét)<input type="text" name="edzés"><br>
+    Volt-e valamilyen betegsége korábban?<select name="igennem1"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Kezelték-e valaha kórházban?<select name="igennem2"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Szed-e rendszeresen valamilyen gyógyszert?<select name="igennem3"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Allergiás-e valamire?<select name="igennem4"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Eszédült-e valaha edszés közben?<select name="igennem4"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Volt-e valaha olyan csont -,izületi-,szalag-, vagy izomproblémája, ami fájdalommal, esetlegduzzanattal járt?<select name="igennem5"><option value="igen">Igen</option>
+    <option value="nem">Nem</option></select><br>
+    Ha igen, kérem jelölje be, hol<select name="testreszek_serulese"><option value="fej">Fej</option>
+    <option value="mellkas">Mellkas</option>
+    <option value="konyok">Könyök</option>
+    <option value="comb">Comb</option><option value="nyak">Nyak</option><option value="vall">Váll</option>
+    <option value="ujjak">Ujjak</option>
+    <option value="terd">Térd</option>
+    <option value="csuklo">Csukló</option>
+    <option value="labszar">Lábszár</option>
+    <option value="kezfej">Kézfej</option></select>
+  <br>
+  </form>
+</section>
+<section>
+  <form>
+    <h3>Megjegyzés:</h3><br><textarea cols=30 name=message maxlength=200></textarea><br>
+  <input type="submit" value="Elküldés">
+ </form>
+</section> 
+<footer>
+© Magyar Kosárlabda Szövetség
+</footer>
+</body>
+</html>
 
