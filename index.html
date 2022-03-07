@@ -13,10 +13,9 @@
 <h1>Kosárlabda Sportorvosi kérdőív</h1>
 
 </header>
-  
-<section>
-<h3>Adatok</h3>
-  <form>
+<form> 
+ <section>
+ <h3>Adatok</h3>
   Vezetéknév:<br><input type="text" name="vezeteknev"><br>
   Keresztnév:<br><input type="text" name="keresztnev"><br>
   Az Ön neme:<br><select name="valaszolo_neme"><option value="ferfi">Férfi</option>
@@ -25,13 +24,13 @@
   Születési idő:<br><input type="date" name="szuletesnap"><br>
   Anyja neve:<br><input type="text" name="anyja_neve"><br>
   Cím:<br><input type="text" name="cím"><br>
-  Telefonszám:<br><input type="tel" name="telefonszam"><br>
+  Telefonszám:<br><input type="tel" name="telefonszam" placeholder="06-00-567-789" pattern="[0-6]{2}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required><br>
   E-mail cím:<br><input type="email" name="email"><br>
-  </form>
-</section>
-<section>
-<H3>Orvosi adatok</H3>
-  <form>
+  
+ </section>
+ <section>
+ <h3>Orvosi adatok</h3>
+
     Hei edzés óra (óra/hét)<input type="text" name="edzés"><br>
     Volt-e valamilyen betegsége korábban?<select name="igennem1"><option value="igen">Igen</option>
     <option value="nem">Nem</option></select><br>
@@ -55,14 +54,14 @@
     <option value="labszar">Lábszár</option>
     <option value="kezfej">Kézfej</option></select>
   <br>
-  </form>
-</section>
-<section>
-  <form>
+  
+ </section>
+ <section>
+  
     <h3>Megjegyzés:</h3><br><textarea cols=30 name=message maxlength=200></textarea><br>
   <input type="submit" value="Elküldés">
- </form>
-</section> 
+ </section>
+</form>
 <footer>
 © Magyar Kosárlabda Szövetség
 </footer>
